@@ -1,3 +1,9 @@
+# 0.0.3
+
+## CI
+
+- Fix the github actions to publish to pub.dev (secrets.txt -> secrets.dart)
+
 # 0.0.2
 
 ## Breaking change
