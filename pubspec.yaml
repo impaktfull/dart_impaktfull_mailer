@@ -1,0 +1,15 @@
+name: impaktfull_mailer
+description: A dart library for sending emails on backend with a template engine.
+version: 0.0.1
+repository: https://github.com/impaktfull/dart_impaktfull_mailer
+
+environment:
+  sdk: ">=3.3.0 <4.0.0"
+
+dependencies:
+  mailer: ^6.2.0
+  path: ^1.8.2
+
+dev_dependencies:
+  lints: ^4.0.0
+  test: ^1.24.0
