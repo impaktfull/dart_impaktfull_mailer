@@ -10,6 +10,7 @@ Future<void> main(List<String> arguments) async {
         email: ImpaktfullMailerSecrets.brevoEmail,
         password: ImpaktfullMailerSecrets.brevoPassword,
       ),
+      variableReplacer: BracketVariableReplacer(),
     );
     // Step 2: Create an html template
     final template = OrderConfirmationMailTemplate(
