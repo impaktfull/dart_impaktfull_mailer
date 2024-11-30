@@ -19,6 +19,9 @@ jobs:
         uses: actions/setup-node@v2
         with:
           node-version: 18
+      - name: Change secrets.txt to secrets.dart
+        run: |
+          mv bin/impaktfull_mailer_secrets.txt bin/impaktfull_mailer_secrets.dart
       - name: Automated version bump
         uses: impaktfull/gh_action_dart_conventional_release@main
         with:

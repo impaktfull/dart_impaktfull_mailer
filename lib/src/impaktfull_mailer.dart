@@ -46,6 +46,8 @@ class ImpaktfullMailer {
     final html = await template.generateHtml(
       locale: locale ?? _defaultLocale,
     );
+    final variables = template.getVariables();
+    final htmlWithVariablesReplaced = variableReplacer.replace(html, variables);
     await mailSenderService.send(
       fromEmail: fromEmail,
       fromName: fromName,
@@ -53,7 +55,7 @@ class ImpaktfullMailer {
       cc: cc,
       bcc: bcc,
       subject: subject,
-      html: html,
+      html: htmlWithVariablesReplaced,
     );
   }
 
