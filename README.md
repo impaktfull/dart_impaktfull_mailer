@@ -26,7 +26,10 @@ final mailer = ImpaktfullMailer(
     email: 'your_brevo_smtp_email',
     password: 'your_brevo_smtp_password',
   ), // or any other mail sender service
-  variableReplacer: BracketVariableReplacer(), // default
+  variableReplacer: DelimiterVariableReplacer(
+    prefix: '{{', // default
+    suffix: '}}', // default
+  ), // default
   defaultLocale: 'en',// default
 );
 /// Create the template

@@ -1,6 +1,6 @@
 import 'package:impaktfull_mailer/src/service/sender/mail_sender_service.dart';
 import 'package:impaktfull_mailer/src/templates/mail_template.dart';
-import 'package:impaktfull_mailer/src/util/variable_replacer/bracket_variable_replacer.dart';
+import 'package:impaktfull_mailer/src/util/variable_replacer/delimiter_variable_replacer.dart';
 import 'package:impaktfull_mailer/src/util/variable_replacer/variable_replacer.dart';
 
 class ImpaktfullMailer {
@@ -10,7 +10,7 @@ class ImpaktfullMailer {
 
   ImpaktfullMailer({
     required this.mailSenderService,
-    this.variableReplacer = const BracketVariableReplacer(),
+    this.variableReplacer = const DelimiterVariableReplacer(),
     String defaultLocale = 'en',
   }) : _defaultLocale = defaultLocale;
 

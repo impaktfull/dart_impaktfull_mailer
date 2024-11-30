@@ -10,5 +10,5 @@ export 'src/templates/mail_template.dart';
 export 'src/templates/order_confirmation/order_confirmation_mail_template.dart';
 
 // Variable replacer
-export 'src/util/variable_replacer/bracket_variable_replacer.dart';
+export 'src/util/variable_replacer/delimiter_variable_replacer.dart';
 export 'src/util/variable_replacer/variable_replacer.dart';

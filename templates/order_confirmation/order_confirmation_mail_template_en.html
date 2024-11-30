@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>[TITLE]</title>
+    <title>{{TITLE}}</title>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -105,8 +105,8 @@
 <body>
     <div class="email-container">
         <div class="content">
-            <h1>Hi [CUSTOMER NAME],</h1>
-            <h2>[SUBTITLE]</h2>
+            <h1>Hi {{CUSTOMER NAME}},</h1>
+            <h2>{{SUBTITLE}}</h2>
             <p>Below you can see a summary of your order.</p>
             <div class="order-details">
                 <h3>Your order</h3>
@@ -116,19 +116,19 @@
                         <th>Quantity</th>
                         <th>Price</th>
                     </tr>
-[ORDER LINES]
+{{ORDER LINES}}
                     <tr>
                         <td colspan="2" style="text-align: right;"><strong>Total:</strong></td>
-                        <td>[TOTAL PRICE]</td>
+                        <td>{{TOTAL PRICE}}</td>
                     </tr>
                 </table>
             </div>
-            <p>Your order number is <strong>[ORDER NUMMER]</strong>.</p>
-            <p>If you still have questions, please do not hesitate to <a href="[CONTACT US URL]">contact us</a>.</p>
+            <p>Your order number is <strong>{{ORDER NUMMER}}</strong>.</p>
+            <p>If you still have questions, please do not hesitate to <a href="{{CONTACT US URL}}">contact us</a>.</p>
         </div>
         <div class="footer">
-            <p>[COPYRIGHT]</p>
-            <p><a href="[PRIVACY URL]">Privacy Policy</a></p>
+            <p>{{COPYRIGHT}}</p>
+            <p><a href="{{PRIVACY URL}}">Privacy Policy</a></p>
         </div>
     </div>
 </body>
