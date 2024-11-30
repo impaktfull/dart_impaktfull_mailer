@@ -1,3 +1,9 @@
+# 0.0.5
+
+## Fix
+
+- Sync the html templates with dart
+
 # 0.0.4
 
 ## CI
