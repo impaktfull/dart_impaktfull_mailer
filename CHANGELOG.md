@@ -1,3 +1,9 @@
+# 0.0.4
+
+## CI
+
+- Fix the github actions to publish to pub.dev (secrets file)
+
 # 0.0.3
 
 ## CI

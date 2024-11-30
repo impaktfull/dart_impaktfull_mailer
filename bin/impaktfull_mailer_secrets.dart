@@ -1,4 +1,3 @@
-/// Change the extension to .dart
 class ImpaktfullMailerSecrets {
   ImpaktfullMailerSecrets._();
 
