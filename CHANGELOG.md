@@ -7,6 +7,7 @@
 ## Feature
 
 - Added `DelimiterVariableReplacer` with `{{` as prefix and `}}` as suffix by default
+- Export HtmlMailTemplates & HtmlMailTemplate
 
 ## CI
 
@@ -15,6 +16,7 @@
 ## Fix
 
 - Fixed the variable replacement in the email template.
+- imports
 
 ## Docs
 

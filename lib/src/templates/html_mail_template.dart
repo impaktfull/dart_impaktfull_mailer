@@ -1,5 +1,5 @@
-import 'package:impaktfull_mailer/impaktfull_mailer.dart';
 import 'package:impaktfull_mailer/src/templates/html_mail_templates.dart';
+import 'package:impaktfull_mailer/src/templates/mail_template.dart';
 
 abstract class HtmlMailTemplate extends MailTemplate {
   final String templateName;

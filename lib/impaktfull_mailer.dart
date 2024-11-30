@@ -7,6 +7,8 @@ export 'src/service/sender/noop_mail_sender_service.dart';
 
 // Templates
 export 'src/templates/mail_template.dart';
+export 'src/templates/html_mail_template.dart';
+export 'src/templates/html_mail_templates.dart';
 export 'src/templates/order_confirmation/order_confirmation_mail_template.dart';
 
 // Variable replacer
